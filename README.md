@@ -1,5 +1,7 @@
 # CardRedactor
 
+[![Build Status](https://travis-ci.org/pocketsmith/card-redactor.svg?branch=master)](https://travis-ci.org/pocketsmith/card-redactor)
+
 A gem for detecting sensitive [credit card PANs](https://en.wikipedia.org/wiki/Payment_card_number) in strings, and redacting them. All digits, except the trailing 4, are replaced with X. The original format of the number is kept intact. Supports Visa, Mastercard, AMEX, and Discover. Useful for cases where user input may inadvertently contain credit card numbers, and you want to ensure they aren't stored.
 
 ## Installation
